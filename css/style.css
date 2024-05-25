@@ -1,0 +1,23 @@
+.logo {
+  color: black;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .nav,
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.menu a {
+  color: black;
+  font-weight: 400;
+}
